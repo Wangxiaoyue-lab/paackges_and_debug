@@ -7,7 +7,7 @@ pkgs <- c(
   "WGCNA", "GENIE3", "AUCell", "RcisTarget", "glmnetUtils", "Matrix.utils",
   "tximport", "RobustRankAggreg", "randomForest", "enrichplot", "e1071", "VennDiagram",
   "survival", "survivalROC", "factoextra", "FactoMineR", "survminer", "survMisc",
-  "UpSetR", "ConsensusClusterPlus", "JASPAR2020", "Nebulosa", # "caret"
+  "UpSetR", "ConsensusClusterPlus", "JASPAR2020", "Nebulosa", "caret",
   "circlize", "table1", "formattable", "webshot", "infercnv", "TxDb.Hsapiens.UCSC.hg19.knownGene",
   "dbscan", "AnnoProbe", "parallelDist","ggpval" ,"biomaRt"
 )
