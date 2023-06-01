@@ -89,7 +89,8 @@ github_list <- c(
   "navinlabcode/copykat",
   "stemangiola/tidyHeatmap",
   "coolbutuseless/ggreverse",
-  "KrishnaswamyLab/phateR"
+  "KrishnaswamyLab/phateR",
+  "theislab/kBET"
 )
 
 check_github <- function(github_list) {
