@@ -9,7 +9,9 @@ pkgs <- c(
   "survival", "survivalROC", "factoextra", "FactoMineR", "survminer", "survMisc",
   "UpSetR", "ConsensusClusterPlus", "JASPAR2020", "Nebulosa", "caret",
   "circlize", "table1", "formattable", "webshot", "infercnv", "TxDb.Hsapiens.UCSC.hg19.knownGene",
-  "dbscan", "AnnoProbe", "parallelDist", "ggpval", "biomaRt", "GSA"
+  "dbscan", "AnnoProbe", "parallelDist", "ggpval", "biomaRt", "GSA",
+  "sf", "sp", "rgal", "leidenbase", "magick", "BiocSingular", "forcats", "reactR",
+  "bit64", "GenomeInfoDb"
 )
 
 # devtools::install_local(package_name,force = T,quiet = F)
@@ -90,7 +92,10 @@ github_list <- c(
   "stemangiola/tidyHeatmap",
   "coolbutuseless/ggreverse",
   "KrishnaswamyLab/phateR",
-  "theislab/kBET"
+  "theislab/kBET",
+  "drieslab/Giotto",
+  "ludvigla/semla",
+  "drighelli/SpatialExperiment"
 )
 
 check_github <- function(github_list) {
