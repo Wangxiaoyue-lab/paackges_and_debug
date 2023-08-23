@@ -7,10 +7,14 @@ pip install pip install "spatialdata[extra]" #git+https://github.com/scverse/spa
 pip install torch
 pip install pysal
 
-pip install starfish
-pip install space ranger
+pip install monai
+pip install cellphonedb
+pip install starfish[napari]
+
 pip install pyimagej
 
+
+pip install space ranger
 
 # 先安装旧版本
 pip install scvi-tools==0.20.3
